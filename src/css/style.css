@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.active{
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.businessman {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.businessman h2 {
+    color: #333;
+}
+
+.businessman p {
+    color: #666;
+}
+
+.center-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.center-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.center-image p {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.map {
+    background-color: #505050;
+}
+
+#sitemap {
+    width: 100%;
+    height: 100vh; /* Занимает всю доступную высоту */
+    border: none;
+}
