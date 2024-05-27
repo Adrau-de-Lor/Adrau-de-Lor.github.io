@@ -13,41 +13,55 @@
     </header>
 
     <nav>
-      <a href="index.html">Главная</a>
-      <a href="busnesman.html">Бизнесмены</a>
-      <a href="galerea.html">Галерея</a>
-      <a href="about.html" class="active">О нас</a>
-      <a href="map.html">Карта сайта</a>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="busnesman.html">Бизнесмены</a></li>
+        <li><a href="galerea.html">Галерея</a></li>
+        <li><a href="about.html" class="active">О нас</a></li>
+        <li><a href="map.html">Карта сайта</a></li>
+      </ul>
     </nav>
 
-    <!-- <main>
-      <h2>О нашей компании</h2>
-      <p>
-        <em>Мы - компания, стремящаяся создавать качественные продукты и
-        предоставлять высококлассные услуги.</em>
-      </p>
-      <p>
-        Наша цель - удовлетворить потребности наших клиентов и построить
-        долгосрочные отношения с ними.
-      </p>
-    </main> -->
+    <div class="avatar">
+      <img src="/src/image/Y.png" alt="Аватар">
+  </div>
+    
+        <table>
+            <tr>
+                <td>Имя:</td>
+                <td>Кибальчич К.В.</td>
+            </tr>
+            <tr>
+                <td>Электронная почта:</td>
+                <td><a href="mailto:kirill.kibalchitch@yandex.ru">kirill.kibalchitch@yandex.ru</a></td>
+            </tr>
+            <tr>
+                <td>Ссылки:</td>
+                <td>
+                    <a href="https://t.me/Adrau_de">Telegramm</a>,
+                    <a href="#">VK</a>
+                    <a href="#"><s>Запрещенная в россии организация</s></a>
+                </td>
+            </tr>
+            <tr>
+                <td>Цель сайта:</td>
+                <td>Наш веб-сайт посвящен представлению и продвижению деловой активности в городе Череповец. Здесь вы найдете информацию о ведущих предпринимателях города, их достижениях, проектах и влиянии на экономическое развитие региона. Мы стремимся создать платформу, которая поддерживает истории успеха бизнесменов, стимулирует предпринимательскую активность и способствует развитию делового сообщества Череповца. Наша цель - предоставить интересные и актуальные материалы о бизнесе в городе, а также создать возможность для обмена опытом и идеями между предпринимателями и участниками бизнес-сообщества.</td>
+            </tr>
+        </table>
 
-    <footer>
-      <div class="footer-theme">
-        Тема проекта Web-сайта: Бизнесмены города Че
-      </div>
-      <div class="footer-icons">
-        <a href="mailto:kirill.kibalchitch@yandex.ru"
-          ><img height="30px" width="30px" src="src\image\mail.svg" alt="Email"
-        /></a>
-        <a href="https://t.me/Adrau_de"
-          ><img
-            height="30px"
-            width="30px"
-            src="src\image\telegram_logo.svg"
-            alt="Telegram"
-        /></a>
-      </div>
-    </footer>
+
+
+        <h2>Обратная связь</h2>
+        <form action="/submit-feedback" method="post">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Сообщение:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <input type="submit" value="Отправить">
+        </form>
+
+   
   </body>
 </html>
